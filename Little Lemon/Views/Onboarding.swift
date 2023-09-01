@@ -30,7 +30,9 @@ struct Onboarding: View {
                 Image("logo")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 60)
+                    .frame(height: 40)
+                
+                OnboardingHero()
                 
                 VStack(alignment: .leading) {
                     Group {
@@ -38,10 +40,9 @@ struct Onboarding: View {
                             .foregroundColor(Color(greenLemonColor))
                             .font(Font.custom("Karla", size: 18))
                             .fontWeight(.medium)
-                            .padding(.top)
                         TextField("First Name", text: $firstName)
                             .textFieldStyle(.roundedBorder)
-                            .padding(.bottom)
+                            .padding(.bottom, 10)
                     }
                     Group {
                         Text("Last Name")
@@ -50,7 +51,7 @@ struct Onboarding: View {
                             .fontWeight(.medium)
                         TextField("Last Name", text: $lastName)
                             .textFieldStyle(.roundedBorder)
-                            .padding(.bottom)
+                            .padding(.bottom, 10)
                     }
                     Group {
                         Text("Email")
@@ -60,7 +61,7 @@ struct Onboarding: View {
                         TextField("Email", text: $email)
                             .textFieldStyle(.roundedBorder)
                             .keyboardType(.emailAddress)
-                            .padding(.bottom)
+                            .padding(.bottom, 10)
                     }
                 }
                 .padding()
@@ -82,7 +83,9 @@ struct Onboarding: View {
                 }
                 .background(Color(yelowLemonColor))
                 .clipShape(RoundedRectangle(cornerRadius: 10))
-                .padding()
+                .padding(.bottom)
+                
+                Spacer()
             }
             .onAppear {
                 if UserDefaults.standard.bool(forKey: kIsLoggedIn) == true {

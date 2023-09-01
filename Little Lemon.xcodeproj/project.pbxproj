@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F3FB3782AA16408008D2763 /* MenuItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3FB3772AA16408008D2763 /* MenuItemDetailView.swift */; };
 		7F8955DE2AA10CBE0088C7F9 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8955DD2AA10CBE0088C7F9 /* Hero.swift */; };
 		7F8955E02AA1100C0088C7F9 /* Markazi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8955DF2AA1100C0088C7F9 /* Markazi.ttf */; };
 		7F8955E22AA110320088C7F9 /* Karla.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8955E12AA110310088C7F9 /* Karla.ttf */; };
 		7F8955E62AA111EE0088C7F9 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8955E42AA111EE0088C7F9 /* MarkaziText-Medium.ttf */; };
 		7F8955E72AA111EE0088C7F9 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8955E52AA111EE0088C7F9 /* MarkaziText-Regular.ttf */; };
 		7F8955E92AA11E360088C7F9 /* OneDishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8955E82AA11E360088C7F9 /* OneDishListView.swift */; };
+		7F8955EB2AA15FD80088C7F9 /* OnboardingHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8955EA2AA15FD80088C7F9 /* OnboardingHero.swift */; };
 		7F8A12D52AA0C3CA00AE0109 /* Little_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A12D42AA0C3CA00AE0109 /* Little_LemonApp.swift */; };
 		7F8A12D92AA0C3CE00AE0109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A12D82AA0C3CE00AE0109 /* Assets.xcassets */; };
 		7F8A12DC2AA0C3CE00AE0109 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A12DB2AA0C3CE00AE0109 /* Preview Assets.xcassets */; };
@@ -28,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F3FB3772AA16408008D2763 /* MenuItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailView.swift; sourceTree = "<group>"; };
 		7F8955DD2AA10CBE0088C7F9 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		7F8955DF2AA1100C0088C7F9 /* Markazi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Markazi.ttf; sourceTree = "<group>"; };
 		7F8955E12AA110310088C7F9 /* Karla.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Karla.ttf; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		7F8955E42AA111EE0088C7F9 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
 		7F8955E52AA111EE0088C7F9 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
 		7F8955E82AA11E360088C7F9 /* OneDishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDishListView.swift; sourceTree = "<group>"; };
+		7F8955EA2AA15FD80088C7F9 /* OnboardingHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingHero.swift; sourceTree = "<group>"; };
 		7F8A12D12AA0C3CA00AE0109 /* Little Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8A12D42AA0C3CA00AE0109 /* Little_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_LemonApp.swift; sourceTree = "<group>"; };
 		7F8A12D82AA0C3CE00AE0109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,8 +81,10 @@
 				7F8A12E42AA0C78500AE0109 /* Home.swift */,
 				7F8A12E82AA0CB3100AE0109 /* UserProfile.swift */,
 				7F8A12E62AA0C7AA00AE0109 /* Menu.swift */,
+				7F3FB3772AA16408008D2763 /* MenuItemDetailView.swift */,
 				7F8955E82AA11E360088C7F9 /* OneDishListView.swift */,
 				7F8955DD2AA10CBE0088C7F9 /* Hero.swift */,
+				7F8955EA2AA15FD80088C7F9 /* OnboardingHero.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 				7F8A12EC2AA0D22A00AE0109 /* FetchedObjects.swift in Sources */,
 				7F8A12ED2AA0D22A00AE0109 /* Persistence.swift in Sources */,
 				7F8A12F42AA0D69B00AE0109 /* ExampleDatabase.xcdatamodeld in Sources */,
+				7F3FB3782AA16408008D2763 /* MenuItemDetailView.swift in Sources */,
+				7F8955EB2AA15FD80088C7F9 /* OnboardingHero.swift in Sources */,
 				7F8955DE2AA10CBE0088C7F9 /* Hero.swift in Sources */,
 				7F8A12E92AA0CB3100AE0109 /* UserProfile.swift in Sources */,
 				7F8A12F12AA0D2BD00AE0109 /* MenuItem.swift in Sources */,

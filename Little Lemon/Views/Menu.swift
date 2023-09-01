@@ -85,7 +85,7 @@ struct Menu: View {
                             Divider().padding(.horizontal)
                             ForEach(dishes2) { dish in
                                 NavigationLink {
-                                    
+                                    MenuItemDetailView(dish: dish)
                                 } label: {
                                     OneDishListView(dish: dish)
                                 }
